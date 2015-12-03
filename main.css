@@ -1,10 +1,32 @@
-.learn-more{
-  background-image: url("/img/slide-bg-complexity.jpg");
-}
+
 .learn-more-btn{
   background-color: blue;
   color: white;
+  border-radius: 4px;
+  border: 2px solid blue;
+
 }
+
+.learn-more{
+  background-image: url('img/slide-bg-complexity.jpg');
+  background-position: center;
+
+}
+.pink-block
+{
+	width: 320px;
+	height: 100px;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 8px;
+	background-color: red;
+	opacity: 50%;
+}
+
+h1{
+  	color: white;
+  	left: 400x;
+  }
 div ul{
   
   color:red;
