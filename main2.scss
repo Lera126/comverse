@@ -1,0 +1,52 @@
+
+
+.learn-more-btn{
+  background-color: blue;
+  color: white;
+  border-radius: 4px;
+  border: 2px solid blue;
+  height: 30px;
+  width: 120px;
+
+
+}
+
+.learn-more{
+  background-image: url('img/slide-bg-complexity.jpg');
+  background-position: center;
+
+}
+
+%box {
+	
+	width: 320px;
+	height: 100px;
+	padding: 50px;
+	border-radius: 4px;
+	opacity: 0.8;
+	font-size: 20px;
+	text-align: top;
+	color: white;
+	
+
+}
+
+.pink-block
+{
+	@extend %box;
+	background-color: #ff4d93;
+
+}
+.green-block{
+	@extend %box;
+	background-color:  #33cc33;
+
+}
+h1{
+  	color: white;
+  	left: 400x;
+  }
+div ul{
+  
+  color:red;
+}
