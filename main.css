@@ -49,6 +49,10 @@ section{
 	font-size: 14px;
 	text-align: center;
 }
+#menu li a:hover
+{
+	text-decoration: underline;
+}
 #mini-menu
 {
 	margin-top: 5px;
@@ -239,6 +243,8 @@ header ul
 }
 .month{
 	font-size: 20px;
+	text-align: center;
+	margin-right: auto;
 }
 #main{
 	background-image: url('img/slide-bg-complexity.jpg');
@@ -484,6 +490,10 @@ background-color: #676798;
 	position: relative;
 
 }
+#Success h4
+{
+	color: #3d3d5c;
+}
  ul{
 	list-style: none;
 	 padding-left:0;
@@ -492,7 +502,7 @@ background-color: #676798;
 {
 	height: 400px;
 	width: 1090px;
-	position: relat: ;ive;
+	position: relative;
 	margin: auto;
 
 }
@@ -626,12 +636,34 @@ background-color: #676798;
 
 .writer
 {
+
 	display: block;
 	padding: 5px;
 	font-family: inherit;
 	float: left;
 	color: black;
+	width: 100%;
+	float: left;
+	margin-top: 10px;
+font-size: smaller;
+background-image: url("img/multilinks.png");
+background-repeat: no-repeat;
+background-position: 85% 50%;
+	
 }
+.stories-container ul li:nth-child(3) .writer
+{
+	background-image: url("img/tatasky.png");
+	background-repeat: no-repeat;
+     background-position: 85% 50%;
+}
+/* .writer img
+{
+	float: right;
+	vertical-align: top;
+	align-self: center;
+} */
+
 .stories-container ul li ul li
 {
 	text-align: center;
@@ -665,7 +697,6 @@ background-color: #676798;
 }
 #footer{
 	background-color: #14141f;	
-	padding: 30px;
 	margin-top: 0;
 }
 #footer ul li
@@ -714,22 +745,112 @@ background-color: #676798;
 	background-size: cover;
 	padding-left: 10px;
 	position: relative;
+	height: 300px;
 }
 .blog-posts h6
 {
 	color: #1a8cff;
 	font-size:16px;
 	font-family: sans-serif;
+	margin-bottom: 5px;
+	margin-top: 15px;
+	text-align: center;	
 
 }
-.divider
+.blog-posts p
 {
-	margin-top: 50px;
-	width: 240px;
-	height: 1px;
-	background-color: #d9d9d9;
+	line-height: 150%;
+	display: block;
+	font-size: inherit;
+	margin-right: 10px;
+}
+.blog-posts a{
+	color: white;
 }
 .blue
 {
 	color: #4da6ff;
+}
+.date-2
+{
+	position: relative;
+	margin-right: 20px;
+	
+	width: 50px;
+	text-align: center;	
+	float: left;
+}
+.latest-post
+{
+	width: 95%;
+	max-height: 70px;
+	position: relative;
+	border-bottom: dotted;
+	border-bottom-width: 1px;
+}
+
+.sign-up-sec
+{
+	margin-top: 10px;
+	text-align: center;
+}
+#sign-up
+{
+	width: 50%;
+	border-radius: 4px;
+	padding:2px;
+}
+#sign-up-btn
+{
+	background-color:  #4d79ff;
+	color: white;
+	display: inline;
+	border-radius: 4px;
+	border-color: #4d79ff;
+padding: 2px;
+}
+/* .media ul li 
+{
+	display: inline-block;
+} */
+.media
+{
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+}
+ .media  a{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-right: 3px;
+
+}
+#youtube
+{
+	background-image: url("img/socialMenuIcon-youtube.png");
+	background-repeat: no-repeat;
+
+}
+#linkdin
+{
+	background-image: url("img/socialMenuIcon-linkdin.png");
+	background-repeat: no-repeat;
+}
+#twitter
+{
+	background-image: url("img/socialMenuIcon-twitter.png");
+	background-repeat: no-repeat;
+}
+#youtube:hover
+{
+	background-image: url("img/socialMenuIcon-youtube_hover.png");
+}
+#linkdin:hover
+{
+	background-image: url("img/socialMenuIcon-linkdin_hover.png");
+}
+#twitter:hover
+{
+	background-image: url("img/socialMenuIcon-twitter_hover.png");
 }
