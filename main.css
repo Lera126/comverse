@@ -135,12 +135,15 @@ header ul
 	font-size: 18px;
 	width: 150px;
 }
-
+.mobile-header
+{
+	display: none;
+}
 .hidden
 {
 	display: none;
 }
-#slide1 p
+.slide1 p
 {
 	font-size: 22px;
 	font-family: sans-serif;
@@ -155,11 +158,13 @@ header ul
 }
 
 
-#slides{
+.	slides{
 	list-style: none;
 	list-style-position: 0px;
 	padding-left: 0px;
 	margin: 0px;
+	width: 100%;
+	height: 100%
 }
 #news li
 {
@@ -246,7 +251,11 @@ header ul
 	text-align: center;
 	margin-right: auto;
 }
-#main{
+.slides
+{
+	margin-left: 0;
+}
+.main{
 	background-image: url('img/slide-bg-complexity.jpg');
 	background-position: bottom;
 	background-repeat: no-repeat;
@@ -254,12 +263,19 @@ header ul
 	display: block;
 	background-size: cover;
 	width: 100%;
+	height: 20%;
 	margin: 0px;
 	color: white; 
 	position: relative;
 	display: block;
+	padding:10px;
+	
 } 
-
+.slide1
+{
+	width: 100%;
+	height: 100%;
+}
 #Happening{
 	background-image: url("img/news-and-events-bg.jpg"); 
 	background-position: bottom;
@@ -288,6 +304,10 @@ header ul
 }
 a.bullet:active, a.bullet:hover {
 background-color: #676798;
+}
+.active-bullet
+{
+	background-color: #3385ff;
 }
 .link-btn{
   background:  #1a75ff;
@@ -350,6 +370,7 @@ background-color: #676798;
 }
 .block p{
 	margin-top: 10px;
+	margin-right: 10%;
 }
 .read-more
 {
@@ -360,6 +381,9 @@ background-color: #676798;
 	vertical-align: bottom;
 	/* margin-left: 5px; */
 	font-family: sans-serif;
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
 }
 
 #pink{
@@ -374,10 +398,10 @@ background-color: #676798;
 }
 #What{
 	
-	background-image: url("img/services-bg.png");
-	background-position: top;
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-image: url("img/weDoBG.png");
+	
+	background-color: #0099cc;
+	/*background-size: cover;*/
 	/* background-attachment: fixed; */
 	margin: 0px;
 	padding: 25px;
@@ -403,7 +427,7 @@ background-color: #676798;
 .icons li
 {
 	height: 110px;
-	width: 162px;
+	width: 80px;
 	vertical-align:top;
 	display: inline-block;
 	font-family: sans-serif;
@@ -412,7 +436,7 @@ background-color: #676798;
 .icons li a
 {
 	height: 80px;
-	width: 162px;
+	width: 100px;
 	vertical-align:top;
 	display: inline-block;
 	background-repeat: no-repeat;
@@ -698,6 +722,7 @@ background-position: 85% 50%;
 #footer{
 	background-color: #14141f;	
 	margin-top: 0;
+	padding:1px;
 }
 #footer ul li
 {
@@ -766,7 +791,7 @@ background-position: 85% 50%;
 }
 .blog-posts a{
 	color: white;
-}
+}	
 .blue
 {
 	color: #4da6ff;

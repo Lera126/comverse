@@ -12,12 +12,14 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" type="text/css" href="main.css">
+        <link rel="stylesheet" type="text/css" href="mobile.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body >
         <!-- Site content BEGIN -->
         <header>
         <div class="center">
+        <div class="site-header">
             <a href="#"><img src="img/comverse-logo.png" alt="logo" ></a>
             <ul id="menu">
                 <li ><a href="#" >YOUR NEEDS</a></li>
@@ -45,46 +47,57 @@
                 </div>
             </div>
             </div>
+            <div class="mobile-header">
+                <button class = "head-btn">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+                <img src="img/comverse-logo-medium.png">
+                <button class = "head-btn search-button"></button>
+
+            </div>
+            </div>
         </header>
-
-
-
-
 <article >
-    <section id="main" >
-    <div class = "center">
-            <ul id = "slides" >
-                <li id ="slide1" >
-                    <h1>
-                        <b>Free</b> Your Markets from <br>IT <b>Comlexity</b>
-                    </h1>
-                    <p>Comverse Policy Studio<br>
-                        <b>1st Ever</b> Marketing-Oriented Policy Tool
-                    </p>
-                   
+    <section class="main" >
+        <div class="comverse-slides center">
+            <ul class = "slides " >
+                <li class ="  slide1 ">
+                    <div class = "highlights center ">
+                        <h1>
+                            <b>Free</b> Your Markets from <br>IT <b>Comlexity</b>
+                        </h1>
+                        <p>Comverse Policy Studio<br>
+                            <b>1st Ever</b> Marketing-Oriented Policy Tool
+                        </p>
+                    </div>
                     <a href="#" class = "link-btn" id="learn-more">LEARN MORE </a>
+                    
                 </li>
-                <li id="slide2"><span class = "hidden">1</span></li>
-                <li id="slide3" ><span class = "hidden">2</span></li>
-                <li id="slide4" ><span class = "hidden">3</span></li>
-                <li id="slide5" ><span class = "hidden">4</span></li>
+                <li class="slide2 hidden">1</li>
+                <li class="slide3 hidden">2</li>
+                <li class="slide4 hidden">3</li>
+                <li class="slide5  hidden">4</li>
             </ul>
-            <ul class="bullets">
-                <li><a href="#slide1" class="bullet"></a> </li>
+            <ul class="bullets ">
+                <li><a href="#slide1" class="bullet active-bullet"></a> </li>
                 <li><a href="#slide2" class="bullet"></a> </li>
                 <li><a href="#slide3" class="bullet"></a> </li>
                 <li><a href="#slide4" class="bullet"></a> </li>
                 <li><a href="#slide5" class="bullet"></a> </li>
             </ul>
-            <ul class="boxes" >
+            </div>
+            <ul class="boxes center">
                         <li > <a href="#" class="block"  id="pink">
                             <p>Comverse Is Value-Added Service Global Market Leader</p> 
                             <span class = "read-more"><img src="img/link-icon-image.png">Read More</span></a>
 
                          </li>
                          <li ><a href="#" class="block" id="green">
-                          <p>Managed Services World Congress September 18-19 Berlin, Germany</p> 
-                          <span class = "read-more"><img src="img/link-icon-image.png">Read More</span></a>
+                             <p>Managed Services World Congress September 18-19 Berlin, Germany</p> 
+                            <span class = "read-more"><img src="img/link-icon-image.png">Read More</span></a>
                              
                          </li>
                          <li ><a href="#" class="block" id="orange">
@@ -93,7 +106,7 @@
 
                          </li>
 
-                    </ul> 
+                </ul> 
     </section>
     <section id = "What" >
     <div class= "center">
@@ -104,6 +117,7 @@
                 <li><a href="#"></a><div class="icon-text">Over-the-top<br>(OTT)</div></li> 
                 <li><a href="#"></a><div class="icon-text">Cloud computing</div></li> 
                 <li><a href="#"></a><div class="icon-text">Social Media</div></li> 
+                <li><a href="#"></a><div class="icon-text">Cloud Computing</div></li>
 
         </ul>
         <div class="center-btn">
