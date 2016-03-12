@@ -85,23 +85,7 @@ header{
 	padding-right: 10px;
 	margin-right: 5px;
 	
-}
-.lang-content
-{
-	display: none;
-	position: absolute;
-	z-index: 1;
-	width: 50px;
-	height: 30px;
-}
-.lang-content a:hover
-{
-	background-color: #4da6ff;
-}
-.lang:hover .lang-content{
-    display: block !important;
-}
-	
+}	
 header ul
 {
 	display: inline-block;
