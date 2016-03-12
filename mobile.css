@@ -1,4 +1,4 @@
-@media (max-width: 767px){
+@media (max-width: 600px){
 	.site-header
 	{
 		display: none;
@@ -47,6 +47,7 @@
 	.main
 	{
 		background: transparent;
+		padding: 0;
 	}
 	.comverse-slides
 	{
@@ -102,12 +103,44 @@
 	{
 		height: 700px; 
 	}
-	.stories-container ul li:nth-child(3)
+
+	.success-story:nth-child(3)
 	{
 		display: none;
 	}
 	.stories-container ul li
 	{
 		display: block;
+	}
+	#footer
+	{
+		display: none;
+	}
+	.mobile-footer
+	{
+		display: block;
+		padding: 1px;
+	}
+	.mobile-footer ul
+	{
+		margin-top: 0;
+	}
+	.mobile-footer li
+	{
+		display: block;
+		padding: 3%;
+		background-image: url("img/footer-bg.png");
+		color: white;
+		font-family: sans-serif;
+	}
+	.mobile-footer img
+	{
+		float: right;
+		margin-left: 5%;
+	}
+	.mobile-footer select
+	{
+		float: right;
+
 	}
 }

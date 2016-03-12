@@ -33,9 +33,11 @@
                     <li >
                         <a href="#" class = "lang">En</a>
                         <div class="lang-content">
-                            <a href="#">En</a>
-                            <a href="#">Heb</a>
-                            <a href="#">Ru</a>
+                            <ul>
+                                <li><a href="#">En</a></li>
+                                <li><a href="#">Heb</a></li>
+                                <li><a href="#">Ru</a></li>
+                            </ul>
                         </div>  
                         </a>      
                     </li>
@@ -47,7 +49,9 @@
                 </div>
             </div>
             </div>
-            <div class="mobile-header">
+           
+        </header>
+         <header class="mobile-header">
                 <button class = "head-btn">
                   <div></div>
                   <div></div>
@@ -57,8 +61,6 @@
                 <img src="img/comverse-logo-medium.png">
                 <button class = "head-btn search-button"></button>
 
-            </div>
-            </div>
         </header>
 <article >
     <section class="main" >
@@ -108,7 +110,7 @@
 
                 </ul> 
     </section>
-    <section id = "What" >
+    <section id = "Services" >
     <div class= "center">
         <h2>WHAT CAN WE DO FOR YOU?</h2>
         <ul class ="icons">
@@ -163,8 +165,8 @@
     <div class="center">
         <h4>SUCCESS STORIES</h4>
         <div class="stories-container" >
-            <ul>
-                <li>
+            <ul >
+                <li class="success-story">
                     <a href="#" class="main-story">
                     <div class="quote">
                             <img src="img/person2.png" alt = "person2" >
@@ -185,8 +187,8 @@
                         <li><a href="#" class="success-logo" id="s2"></a></li>
                         <li><a href="#" class="success-logo" id="s3"></a></li>
                     </ul>
-                </li>
-                <li>
+                </li >
+                <li class="success-story">
                     <ul>
                         <li><a href="#" class="success-logo" id="s4"></a></li>
                         <li><a href="#" class="success-logo" id="s5"></a></li>
@@ -203,16 +205,12 @@
                                  </p>
                                   <div class = "writer">
                                   <span class = "blue">ADALE KEHASSEN</span><br>CIO of multilinks
-                                  </div>
-                                  
-
-                                  
+                                  </div>    
                         </div>
-                            <!-- </a> -->
                     </a>
                     
                 </li>
-                <li>
+                <li  class="success-story">
                     <a href="#" class="main-story">
                          <div class="quote">
                                  <img src="img/quote-grey.png" alt = "quote-grey">
@@ -235,7 +233,7 @@
     </section>
     <section id = "footer">
             <div class="center">
-            <ul>    
+            <ul id="footer-menus">    
                 <li>
                 <div class="map-menu">
                 <h5>KEY SOLUTIONS</h5>
@@ -279,7 +277,7 @@
                 </ul>
                 </div>
             </li>
-            
+            </ul>
             <div class="blog-posts">
                 <h6>LATEST BLOG POSTS</h6>
                 <a href="#">
@@ -300,14 +298,35 @@
                         </form>
                     </div>
             
-            <div class = "media">
-                <a href="#" id ="youtube"></a>
-                <a href="#" id ="linkdin"></a>
-                <a href="#" id ="twitter"></a>
+                <div class = "media">
+                    <a href="#" id ="youtube"></a>
+                    <a href="#" id ="linkdin"></a>
+                    <a href="#" id ="twitter"></a>
+                 </div>
             </div>
-            </div>
-         </ul>
+         </div>
+      
     </section>
+       <section class="mobile-footer">
+             <ul>
+                <li>CONTACT US</li>
+                <li>
+                    VISIT US ON 
+                    <a href="#"><img src="img/socialMenuIcon-linkdin.png" alt="linkdin"></a>
+                    <a href="#"><img src="img/socialMenuIcon-twitter.png" alt="twitter"></a>
+                    <a href="#"><img src="img/socialMenuIcon-youtube.png" alt="youtube"></a>
+                </li>
+                <li>SUBSCRIBE TO COMVERSE </li>
+                <li>
+                    CHANGE LANGUGE
+                    <select>
+                        <option>English</option>
+                        <option>Hebrew</option>
+                        <option>Russian</option>
+                    </select>
+                </li>
+             </ul>
+         </section>
             <!-- Site content END -->
 
          </body>
